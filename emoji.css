@@ -1,0 +1,164 @@
+body{
+    background-color: gold;
+    height: 100vh;
+    width: 100%;
+    animation-name: box;
+    animation-duration: 2s;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.face{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    margin-top: 80px;
+}
+.eye1{
+    height: 55px;
+    width: 45px;
+    border-radius: 100%;
+    background-color: gold;
+    position: absolute;
+    top: 45px;
+    left: 40px;
+}
+.eye11{
+    height: 45px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.eye111{
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    background-color: blue;
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+.eye1111{
+        height: 10px;
+        width: 10px;
+        border-radius: 100%;
+        background-color: white;
+        position: relative;
+        top: 5px;
+        left: 18px;
+}
+
+.eye2{
+    height: 55px;
+    width: 45px;
+    border-radius: 100%;
+    background-color:gold;
+    position: absolute;
+    top: 4px;
+    left: 130px;
+}
+
+.eye22{
+    height: 45px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.eye222{
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    background-color: blue;
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+.eye2222{
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    background-color: white;
+    position: relative;
+    top: 5px;
+    left: 18px;
+}
+.nose{
+    height: 45px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: fuchsia;
+    position: absolute;
+    top: 270px;
+    left: 725px;
+} 
+.smile{
+width:200px;
+height: 200px;
+position:absolute;
+border-color:transparent;
+border:2px solid transparent;
+border-bottom-color: black;
+border-radius:100%;
+margin-top: 3px;
+margin-left: 25px;
+}
+.stomach{
+    height: 330px;
+    width: 330px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    margin-top: -1px;
+    margin-left: 570px; 
+}
+.button1{
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: black;
+    position: relative;
+    top: -270px;
+    left: 725px;
+}
+.button2{
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: black;
+    position: relative;
+    top: -190px;
+    left: 725px;
+}
+.button3{
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: black;
+    position: relative;
+    top: -100px;
+    left: 725px;
+}
+.h{
+    text-align: center;
+    background-color: white;
+    color: red;
+    margin-top: 20px;
+}
+.stomach:hover{
+    background-color: chartreuse;
+}
+.face:hover{
+    background-color: red;
+}
+.n{
+    color: #000;
+}
